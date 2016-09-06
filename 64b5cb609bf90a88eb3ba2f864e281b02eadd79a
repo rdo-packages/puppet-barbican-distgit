@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_eb9281f5",
+        "filename": "puppet-barbican.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2016-09-06T17:57:54Z",
+      "side": 1,
+      "message": "Would really prefer those to be spaces",
+      "revId": "64b5cb609bf90a88eb3ba2f864e281b02eadd79a",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
