@@ -34,6 +34,24 @@
       "revId": "1e74c89af98df02b673a87d8d525fe6c0e8c597d",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facab960_96e2fc01",
+        "filename": "puppet-barbican.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2016-09-06T23:37:44Z",
+      "side": 1,
+      "message": "%{upstream_version} is required by DLRN, it defines this macro by parsing the upstream source version.\nFallback macro is https://review.rdoproject.org/r/#/c/2070/1/python-oslo-serialization.spec which we need so that same spec can also be used for Koji stable builds where upstream_version macro is undefined.",
+      "parentUuid": "facab960_562b1482",
+      "revId": "1e74c89af98df02b673a87d8d525fe6c0e8c597d",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
