@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "facab960_7c8399cc",
+        "filename": "puppet-barbican.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2016-09-08T14:58:24Z",
+      "side": 1,
+      "message": "According to the build log this is where it\u0027s likely failing\n\n    2016-09-07 16:49:16,823 INFO:dlrn:+ cp \u0027*\u0027 /tmp/tmp.Fst2fU0mlV/SOURCES/\n    2016-09-07 16:49:16,825 INFO:dlrn:cp: cannot stat ‘*’: No such file or directory",
+      "revId": "3f7a3bf967d56541714d099d6160ae2b331d3052",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
