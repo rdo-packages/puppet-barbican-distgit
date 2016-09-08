@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "facab960_9c5f7d72",
+        "filename": "puppet-barbican.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16
+      },
+      "writtenOn": "2016-09-08T15:19:19Z",
+      "side": 1,
+      "message": "This isn\u0027t right, at least according to what the description of other puppet modules. i.e, nova\n\n    Puppet module for OpenStack Nova",
+      "revId": "3f7a3bf967d56541714d099d6160ae2b331d3052",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "facab960_7c8399cc",
         "filename": "puppet-barbican.spec",
         "patchSetId": 3
