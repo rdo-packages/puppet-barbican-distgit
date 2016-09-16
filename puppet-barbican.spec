@@ -23,7 +23,7 @@ Requires:               puppet >= 2.7.0
 Puppet module which installs and configures OpenStack Barbican.
 
 %prep
-%setup -q -n %{name}-%{upstream_version}
+%setup -q -n openstack-barbican-%{upstream_version}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
