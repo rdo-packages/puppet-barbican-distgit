@@ -4,7 +4,7 @@ Name:                   puppet-barbican
 Version:                10.3.0
 Release:                1%{?dist}
 Summary:                Puppet module for OpenStack Barbican
-License:                Apache-2.0
+License:                ASL 2.0
 
 URL:                    https://launchpad.net/puppet-barbican
 
