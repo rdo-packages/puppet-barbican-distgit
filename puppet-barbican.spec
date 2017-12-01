@@ -1,7 +1,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-barbican
-Version:                11.3.0
+Version:                11.3.1
 Release:                1%{?dist}
 Summary:                Puppet module for OpenStack Barbican
 License:                ASL 2.0
@@ -47,6 +47,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/barbican/
 
 
 %changelog
+* Fri Dec 01 2017 RDO <dev@lists.rdoproject.org> 11.3.1-1
+- Update to 11.3.1
+
 * Fri Aug 25 2017 Alfredo Moralejo <amoralej@redhat.com> 11.3.0-1
 - Update to 11.3.0
 
