@@ -66,3 +66,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/barbican/
 %changelog
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-barbican/commit/75587399218023c1fba042747fafa89a1e34545f
