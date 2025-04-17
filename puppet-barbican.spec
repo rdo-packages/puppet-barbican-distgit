@@ -1,10 +1,10 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0x22284f69d9eccdf3df7819791c711af193ff8e54
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-barbican
-Version:                XXX
-Release:                XXX
+Version:                26.0.0
+Release:                1%{?dist}
 Summary:                Puppet module for OpenStack Barbican
 License:                ASL 2.0
 
@@ -64,5 +64,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/barbican/
 
 
 %changelog
+* Thu Apr 17 2025 RDO <dev@lists.rdoproject.org> 26.0.0-1
+- Update to 26.0.0
+
 
 
